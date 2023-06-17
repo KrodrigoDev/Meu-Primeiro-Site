@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="../NOVO-PET-SHOP/ICONS/LOGO WEB.png">
+    <title>Pagamento</title>
+    <style>
+        body{
+            background: #ADDDD0;
+            font-family: Arial, Helvetica, sans-serif;       
+        }
+
+        .pagamento{
+            margin-left: 25%;
+            margin-right: 25%;
+            background-color: white;
+            border: 5px solid #87A2FB ;
+            border-radius: 15px;
+        }
+
+        .paga{
+            margin-left: 15px;
+        }
+        
+        .enviar{
+            margin-top: 1cm;
+        }
+
+        .enviar input{
+            color: white;
+            background-color: #6332b1;
+            border-radius: 5px;
+        }
+
+        .cart [type=text]{
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        .cart [type=number]{
+            width: 45%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        
+            
+        }
+
+        input[type=submit] {
+            width: 100%;
+            background-color:#9981be;
+            color: rgb(0, 0, 0);
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+            input[type=submit]:hover {
+            background-color: #6332b1;
+            color:rgb(255, 255, 255);
+        }
+
+        .dividir {
+            border-radius: 5px;
+            background-color: #fffdfdf8;
+            padding: 20px;
+        }
+
+        .cart{
+            border-radius: 5px;
+            border-style:groove;
+        }
+
+        .nums{
+            float: left;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .valor{
+            float: right;
+            text-align: right;
+        }
+
+        .voltar a{
+            float: right;
+            display: flex;
+            color: #8362b8;
+            font-size: large;
+            text-decoration: none;
+            margin-top: 15px;
+        }
+
+        .voltar a:hover{
+            text-decoration: underline  ;
+            color:#6332b1;
+        }
+
+        h2{
+            color:rgba(0, 0, 139, 0.959);
+        }
+
+    </style>
+</head>
+<body>
+    <fieldset class="pagamento">
+        <div class="voltar"><a href="../NOVO-PET-SHOP/loja.html">Voltar</a></div>
+                <h2>Seus produtos!</h2>
+                <hr>
+            <div class="paga">
+            <img src="https://images-americanas.b2w.io/produtos/01/00/item/16917/1/16917138_1GG.jpg" width="100" height="100" alt="" >
+                <p>Poste arranhador para gato </p> <p> R$120.90</p>
+            </div>
+            <hr>
+            <div class="paga">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTdXTU5JQK_zmvK12xn6kkJ89fJJdSAgW3xijYvZI8rDIs8RLrTlMgcqma5aj8Oc-jlYk&usqp=CAU" alt="" width="100" height="100">
+                <p>Ração para macaco</p> <P>R$30.00</P>
+            </div>
+            <hr>
+            <div class="paga">
+            <img src="http://s2.glbimg.com/A2Ar-iXT4qllN5WKNt_2bKsTTi8=/620x0/s.glbimg.com/jo/eg/f/original/2014/06/23/roupas-twelves.jpg" width="100" height="100" alt="" >
+                <p>Kit de roupas para macaco  </p> <p> R$150.90</p>
+            </div>
+            <hr>
+        <!---Acima copiei uns códigos dos produtos da área da loja, apenas diminui a largura e altura-->
+            <h3>Pagamento</h3>
+            <div class="dividir">
+            <form action="">
+                <fieldset class="cart">    
+                    <input type="radio" id="cart" name="cdc" value="CartaoC">
+                    <label for="cart"> Cartão de Crédito </label>
+                    <br>
+                    <br>
+                    <input id="numc" type="text" placeholder="Digite o número do Cartão" required>
+                    <br>
+                    <br>
+                    <input type="text" placeholder="Nome impresso no Cartão" required>
+                    <br>
+                    <br>
+                    <div class="nums">
+                    <input type="number" placeholder="Mês de Vencimento" required>
+                    <br>
+                    <br>
+                    <input type="number" placeholder="Ano de Vencimento" required>
+                    <br>
+                    <br>
+                    </div>
+                </fieldset>
+                <!---Criei 3 tipos de input, um tipo radio, dois tipo text e dois tipo number, criei também a div nums para poder mexer com o css mais fácil-->
+                <br>
+                <fieldset class="cart">
+                    <input type="radio" id="bol" name="bol" value="Boleto">
+                    <label for="bol"> Boleto </label>
+                </fieldset>
+                <br>
+                <fieldset class="cart">
+                    <input type="radio" id="pics" name="pix" value="pi">
+                    <label for="pics"> Pix </label>
+                </fieldset>
+            </form>
+            <!---Apenas dois inputs do tipo radio só pela aparência, funcionam, mas não é a intenção usá-los agora -->
+            <div class="valor">
+                <h4>Subtotal: R$301.80 </h4>
+                <h4>Frete: Grátis</h4>
+                <h3> Total: R$301.80 </h3>
+            </div>
+                
+                    <form class= "enviar "action="">
+                    <input type="submit" value="Concluir Pagamento">
+                    </form>
+                </fieldset>
+            <!---Mais informações sobre a "Compra" e um botão de submit pra finalizar a compra-->
+            </div>
+       
+            
+</body>
+</html>.

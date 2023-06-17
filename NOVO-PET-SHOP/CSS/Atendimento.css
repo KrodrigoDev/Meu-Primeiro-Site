@@ -1,0 +1,326 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #ADDDD0;
+}
+
+
+/***ID GERAIS***/
+
+#cabecalho {
+    background-color:#6F38C5;
+    min-height: 120px;
+    text-align: center;
+    width: 100%;
+}
+
+#logo {
+    padding: 0px 10px 10px 10px;
+    float: left; 
+}
+
+#logo a {
+    text-decoration: none;
+    font-size: 1.3em;
+}
+
+#menu {
+    position: relative; right: 10px; top: 50px; 
+    float: right;   
+}
+
+#menu a:link, #menu a:visited  {
+    color:  #ffffff ;
+    padding: 8px 12px;
+    text-decoration: none;
+ }
+
+#menu a:hover {
+    color: #ffffff;
+    background-color: #6332b1;
+    padding: 30px 40px 30px 40px ;
+   text-decoration: none;
+}
+
+#menu-principal {
+    width: 100%;
+}
+
+#rodape {
+    background: #6F38C5 ;
+    text-align: center;
+    padding: 15px;
+    clear: both;
+    min-height: 40px;  
+    color: #ffffff; 
+}
+
+
+#Principal-atendimento{
+    padding: 15px;
+    width: 70%;
+    min-width: 920px;
+    max-width: 920px;
+    margin: 0 auto;
+    clear: both;  
+}
+
+
+/*** FIM ID  GERAIS***/
+
+
+/**Menu principal***/
+ul {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    list-style: none;
+    background: url(../Design\ sem\ nome.png) repeat-x;
+    float: left;
+    text-decoration: none;  
+}
+
+ul li{
+    position: relative; left:20%;
+    float: left;  
+}
+
+ul a:hover {
+    color: black;
+    background: #7991e1;
+    text-decoration: none;
+ }
+
+ul a {
+    display: block;
+    padding:  0 2em;
+    line-height: 2em;
+    text-decoration: none;
+    background: url(../divisor.png ) repeat-y left top;  
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+a:link, a:visited  {
+    color:  #ffffff ; 
+ }
+
+.amarelo {
+    color: #ffffff   ;
+}
+
+.branco {
+    color:   #ADDDD0 ;
+}
+
+.nft {
+    display: inline;
+    position: relative ; right: 24px; top: 17px;
+}
+
+.primeiro {
+    background: none;
+ }
+
+ .ver-mais:link, .ver-mais:visited{
+    color: #6F38C5;
+ }
+
+ .clear {clear: both;}
+
+
+ /**duvidas**/
+
+/**Formulário**/
+fieldset {
+    width: 69%/*660px 73,33*/;
+    float: left;
+    padding: 1em;
+    background: #ffffff ;
+    border: 5px solid #87A2FB ;
+    position: relative; bottom: 8px;
+    margin-bottom: 1em ;  
+    border-radius: 10px;
+   
+}
+
+legend{
+    font-weight: bold;
+}
+
+
+.assu{
+    text-align: center;
+    margin-top: 10px;
+    display: block;
+    cursor: pointer;
+}
+
+label{ 
+    margin-top: 10px;
+    display: block;
+    cursor: pointer;  
+}
+
+input{  
+    margin-top: 10px;
+    margin-bottom: 2em;
+    width: 20em;
+    padding: 0.2em;
+    display: inline;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    border: 1px solid #87A2FB ;
+
+}
+
+input:focus{
+    background: #EEEEEE;
+}
+
+select:focus{
+    background: #EEEEEE;
+
+}
+
+select {
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    margin-top: 10px;
+    margin-bottom: 2em;
+    width: 100%;
+    padding: 0.2em;
+    display: inline; 
+    border-radius: 5px;
+    border: 1px solid #87A2FB ;
+}
+
+.viar{  
+    margin-left: 30%;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+textarea{
+    margin-top: 10px;
+    width: 40em;
+    height: 10em;
+    margin-left: 10%;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.muito{
+    font-size: 1.2em;
+    padding-left: 20px;
+    padding-top: 12px;
+    display: block;
+}
+
+.envie{
+    font-size: 0.9em;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    display: block;   
+}
+
+.nom, .ema{
+    float: left;
+    padding-left: 40px ;
+}
+
+.sobr, .tele{
+    float: right;
+    padding-right: 40px;    
+}
+
+.come{
+    clear: both;
+    text-align: center;
+}
+
+.att{
+    position: relative; bottom: 13px;
+    color:#ffffff;
+    background: #6F38C5;
+    border-radius: 5px;
+
+}
+
+.tex {
+    z-index: 5;
+    text-align: center;
+   outline: unset; 
+   border-radius: 5px;
+   border: 1px solid #87A2FB ;
+}
+
+.tex:focus{
+    background: #EEEEEE;
+}
+
+/**fim Formulário**/
+
+.contatos{
+    margin-bottom: 20px;
+    width: 23%/*240px*/;
+    float: right;
+    padding: 10px 10px 10px 0px;
+   background: #ffffff;
+   border: 5px solid #87A2FB ;
+   line-height: 25px;
+   border-radius: 10px;
+   
+}
+
+.dog{
+    margin: 4px; 
+}
+
+.encotrados {
+    display: inline;
+    font-size: 1.0em;  
+}
+
+.whatsapp{  
+    padding: 15px 5px 15px 20px;
+    display:block;    
+}
+
+.Fone{
+    padding: 0px 5px 0px 20px;
+    display:block;
+}
+
+.entre { 
+    clear: both;
+    position: relative; bottom: 10px;
+    padding: 5px 10px 0px 10px;
+    display:block;
+    border-top: 3px dashed #87A2FB ;
+}
+
+strong {
+    position: relative;  bottom: 20px; left: 5px; 
+}
+
+h3{
+    color:#ffffff;
+    background: #6F38C5;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+h1 a {
+    font-size: 2.5em;
+    text-decoration: none;   
+}
+
+/**Fim contatos**/
+ 

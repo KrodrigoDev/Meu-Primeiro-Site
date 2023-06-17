@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #87a2fb;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 100%;
+    min-width: 1024px;
+}
+
+#pagina{
+    background-color: #ADDDD0;
+    display: grid;
+    width: 65%;
+    border-radius: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 17.5%;
+}
+
+#titlepagina{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.basepagina{
+    text-align: justify;
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-bottom: 1.5px;
+    text-indent: 5ch;
+    line-height: 1.6;
+}
+
+.subtitle{
+    text-align: justify;
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-bottom: .5px;
+}
+
+#imgdog{
+    margin: auto;
+    width: 600px;
+    display: block;
+}
+
+
+.vol{
+    float: right;
+    text-align: right;
+}
+
+.vol a{
+    float: right;
+    display: flex;
+    color: white;
+    font-size: large;
+    text-decoration: none;
+    margin-bottom: 15px;
+    margin-right: 50px;
+    font-size: 1.5em;
+}
+
+.vol a:hover{
+    text-decoration: underline  ;
+    color:#6332b1;
+}

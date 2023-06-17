@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #ADDDD0;
+}
+
+/***LAYOUT***/
+       
+#cabecalho {
+    background-color:#6F38C5;
+    min-height: 120px;
+    text-align: center;
+    width: 100%;
+}
+
+#logo {
+    padding: 0px 10px 10px 10px;
+    float: left; 
+}
+
+#menu {
+    position: relative; right: 10px; top: 50px; 
+    float: right;    
+}
+
+#menu-principal {
+    width: 100%;
+}
+
+#rodape {
+    background: #6F38C5 ;
+    text-align: center;
+    padding: 15px;
+    clear: both;
+    min-height: 40px;  
+    color: #ffffff; 
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+a:link, a:visited  {
+    color:  #ffffff ;
+    
+ }
+
+ .ver-mais:link, .ver-mais:visited{
+    color: #6F38C5;
+ }
+ 
+ a:hover {
+     text-decoration: underline;   
+}
+
+
+#menu a:link, #menu a:visited  {
+    color:  #ffffff ;
+    padding: 8px 12px;
+ }
+ 
+ #menu a:hover {
+     color: #ffffff;
+     background-color: #6332b1;
+     padding: 30px 40px 30px 40px ;
+    text-decoration: none;
+ }
+ 
+ #logo a {
+     text-decoration: none;
+     font-size: 1.3em;
+     display: inline;
+ }
+ 
+ /***Formatacao geral***/
+
+
+ ul {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    list-style: none;
+    background: url(../Design\ sem\ nome.png) repeat-x;
+    float: left;
+    text-decoration: none;  
+}
+
+ul li{
+    position: relative; left:20%;
+    float: left;  
+}
+
+ul a:hover {
+    color: black;
+    background: #7991e1;
+    text-decoration: none;
+ }
+
+ul a {
+    display: block;
+    padding:  0 2em;
+    line-height: 2em;
+    text-decoration: none;
+    background: url(../divisor.png ) repeat-y left top;  
+}
+
+h1 a {
+    font-size: 2.5em;
+    text-decoration: none;   
+}
+
+h2 { 
+  color:#ffffff;
+  padding: 5px;   
+  border-radius: 5px;
+  background: #6F38C5;
+  
+ 
+}
+
+.encotrados {
+    font-size: 0.8em;
+    padding-left: 20px;
+    border-bottom: 3px dashed #87A2FB ;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.amarelo {
+    color: #ffffff   ;
+}
+
+.branco {
+    color:   #ADDDD0 ;
+}
+
+.nft {
+    display: inline;
+    position: relative ; right: 24px; top: 17px; 
+}
+
+.primeiro {
+    background: none;
+ }
+
+ /**CÓDIGO DO EBERT**/
+
+ img{
+    border-radius: 10px;
+}
+
+fieldset{
+    border-radius: 8px;
+}
+
+.apresenta{
+    text-align: center;
+    padding: 15px;
+    margin: 5%  3%  0% 3%;
+    text-transform: uppercase;
+    border: 5px solid #87A2FB ;
+    border-radius: 10px;
+    background-color: #6F38C5;
+    color:#ffffff;
+    padding-top: 5px;
+    padding-bottom: 5px;         
+}
+
+.banhe, .atendfie, .spadogue {
+    border: none;
+}
+
+.banho{
+    float: left;
+    display:flex;
+    margin-left: 3cm;
+    margin-top: 1.5cm;
+    align-items: center;
+    text-align: center;  
+}
+
+.ban{
+    border-radius: 5px;
+    margin-left: 1cm;
+}
+
+.imgban, .imgate{
+    border-style:none;
+    filter: drop-shadow(16px 16px 10px rgb(0,0,0,.6));
+    transition: .3s ease-out;
+}
+
+.imgban:hover, .imgate:hover{
+    padding: 20px;
+    border-style:none;
+    filter:none;
+}
+
+.atendimento{
+    float: right;
+    display: flex;
+    align-items: center ;
+    margin-right: 3cm;
+    text-align: center;
+}
+
+.atende{
+    margin-right: 1cm;
+    margin-bottom: 1cm;
+}
+
+.spadogue{
+    background-color: #ffffff;
+    margin-top: -1cm;
+}
+
+.spa{
+    float: left;
+    display: flex;
+    margin: 10px;
+    align-items: center ;
+    margin-bottom: 2cm;
+    margin-top: 0.5cm;
+    margin-left: 3cm;
+}
+
+.spadog{
+    margin-top: 4cm;
+} 
+
+.spafr{
+    margin-left: 1cm;
+}

@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #ADDDD0;
+}
+
+/***LAYOUT***/
+
+#cabecalho {
+    background-color:#6F38C5;
+    min-height: 120px;
+    text-align: center;
+    width: 100%;
+}
+
+#logo {
+    padding: 0px 10px 10px 10px;
+    float: left; 
+}
+
+#menu {
+    position: relative; right: 10px; top: 50px; 
+    float: right;    
+}
+
+#menu-principal {
+    width: 100%;
+    margin-bottom: 150px;
+}
+
+
+#rodape {
+    background: #6F38C5 ;
+    text-align: center;
+    padding: 15px;
+    clear: both;
+    min-height: 40px;  
+    color: #ffffff; 
+}
+
+.clear {
+    clear: both;
+}
+
+
+/***/
+
+a {
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+a:link, a:visited  {
+    color:  #ffffff ;
+    
+ }
+
+ .ver-mais:link, .ver-mais:visited{
+    color: #6F38C5;
+ }
+ 
+ a:hover {
+     text-decoration: underline;   
+}
+
+#postagem a {
+    font-size: 1.1em;
+}
+
+#menu a:link, #menu a:visited  {
+   color:  #ffffff ;
+   padding: 8px 12px;
+}
+
+#menu a:hover {
+    color: #ffffff;
+    background-color: #6332b1;
+    padding: 30px 40px 30px 40px ;
+   text-decoration: none;
+}
+
+#logo a {
+    text-decoration: none;
+    font-size: 1.3em;
+    display: inline;
+}
+
+
+ul {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    list-style: none;
+    background: url(../NOVO-PET-SHOP/Design\ sem\ nome.png) repeat-x;
+    float: left;
+    text-decoration: none;  
+}
+
+ul li{
+    position: relative; left:20%;
+    float: left;  
+}
+
+ul a:hover {
+    color: black;
+    background: #7991e1;
+    text-decoration: none;
+ }
+
+ul a {
+    display: block;
+    padding:  0 2em;
+    line-height: 2em;
+    text-decoration: none;
+    background: url(../NOVO-PET-SHOP/divisor.png ) repeat-y left top;  
+}
+
+
+.amarelo {
+    color: #ffffff   ;
+}
+
+.branco {
+    color:   #ADDDD0 ;
+}
+
+.nft {
+    display: inline;
+    position: relative ; right: 24px; top: 17px; 
+}
+
+.clear {
+    clear: both;
+}
+
+
+/******/
+
+
+
+
+.criar{
+    font-weight: 100;
+    margin-left:200px;
+    
+}
+
+#formulario{
+    text-align: center; 
+    height:950px; 
+    width:450px; 
+    margin: 20px 560px;
+    float: right;
+    margin-right: 800px;
+    background-color: #f8f8f4;
+    border-radius: 13px;
+    box-shadow: 0px 3px 8px #a7a798;
+}
+
+
+
+
+
+label{
+    font-family: Arial, Helvetica, sans-serif;
+}
+::placeholder {
+    text-align: left;
+}
+
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: -12px;
+    margin-top: 0px;
+}
+.button{
+   padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #40a740;
+    color: white;
+    font-size: 15px;
+}
+input[type=text]{
+    padding: 12px 100px;
+    border-style:dashed 10px;
+    border-radius: 10px;
+
+}
+input[type=number]{
+    padding: 12px 100px;
+    border-style:dashed 10px;
+    border-radius: 10px;
+}
+input[type=tel]{
+    padding: 12px 100px;
+    border-style:dashed 10px;
+    border-radius: 10px;
+}
+input[type=email]{
+    padding: 12px 100px;
+    border-style:dashed 10px;
+    border-radius: 10px;
+}
+input[type=radius]{
+    padding: 12px 100px;
+    border-style:dashed 10px;
+    border-radius: 10px;
+}
+input[type=password]{
+    padding: 12px 100px;
+    border-style:dashed 10px;
+    border-radius: 10px;
+}
+select {
+    padding: 12px 140px;
+    border-style:dashed 10px;
+    border-radius: 10px;
+}
+input[type=date]{
+    padding: 12px 125px;
+    initial-value: 00000000;
+    border-style:dashed 10px;
+    border-radius: 10px;
+}
+p{
+    float: left;
+    margin-left: 45px;
+    margin-bottom: -15px;
+    margin-top: 0px;
+    color: #4a4a4a;
+    font-size: 12px;
+}
+
+.condi a{
+    color: #7991e1;
+    border: solid 1px red;
+}
+
+#titulo2{
+    font-family: Arial, Helvetica, sans-serif; 
+    font-weight: 100;
+    float:right;
+    margin-top: 90px;
+    margin-left: 20%;
+}
+#texto1
+{
+    float: right;
+    margin-left: 20%;
+    margin-top: 0px;
+    font-size:24px;
+}
+
+#div2{
+    float: right;
+    margin-right: 10%;
+    margin-top: -1050px;
+}

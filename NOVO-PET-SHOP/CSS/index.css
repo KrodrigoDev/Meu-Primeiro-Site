@@ -1,0 +1,358 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #ADDDD0;
+}
+
+/***LAYOUT***/
+
+#cabecalho {
+    background-color:#6F38C5;
+    min-height: 120px;
+    text-align: center;
+    width: 100%;
+}
+
+#logo {
+    padding: 0px 10px 10px 10px;
+    float: left; 
+}
+
+#menu {
+    position: relative; right: 10px; top: 50px; 
+    float: right;    
+}
+
+#menu-principal {
+    width: 100%;
+}
+
+#principal {
+    padding: 15px;
+    width: 70%;
+    min-width: 920px;
+    max-width: 920px;
+    margin: 0 auto;
+    clear: both;   
+}
+
+#postagem {
+    width: 72%/*660px 73,33*/;
+    float: left;
+    background: #ffffff ;
+    border: 5px solid #87A2FB ;
+    border-radius: 10px;
+    
+}
+
+#curiosidades {
+    width: 24%/*240px*/;
+    float: right;
+    padding: 10px 10px 10px 0px;
+   margin-bottom: 20px;
+   background: #ffffff;
+   line-height: 25px;
+   border: 5px solid #87A2FB ;
+    border-radius: 10px;
+}
+
+#somos {
+    margin-bottom: 20px;
+    width: 24%/*240px*/;
+    float: right;
+    padding: 10px 10px 10px 0px;
+   background: #ffffff;
+   border: 5px solid #87A2FB ;
+    border-radius: 10px;
+}
+
+
+#rodape {
+    background: #6F38C5 ;
+    text-align: center;
+    padding: 15px;
+    clear: both;
+    min-height: 40px;  
+    color: #ffffff; 
+}
+
+/***Menu***/
+
+ a {
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+a:link, a:visited  {
+    color:  #ffffff ;
+    
+ }
+
+ .ver-mais:link, .ver-mais:visited{
+    color: #6F38C5;
+ }
+ 
+ a:hover {
+     text-decoration: underline;   
+}
+
+#postagem a {
+    font-size: 1.1em;
+}
+
+#menu a:link, #menu a:visited  {
+   color:  #ffffff ;
+   padding: 8px 12px;
+}
+
+#menu a:hover {
+    color: #ffffff;
+    background-color: #6332b1;
+    padding: 30px 40px 30px 40px ;
+   text-decoration: none;
+}
+
+#logo a {
+    text-decoration: none;
+    font-size: 1.3em;
+    display: inline;
+}
+
+/***Formatacao geral***/
+
+ul {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    list-style: none;
+    background: url(../Design\ sem\ nome.png) repeat-x;
+    float: left;
+    text-decoration: none;  
+}
+
+ul li{
+    position: relative; left:20%;
+    float: left;  
+}
+
+ul a:hover {
+    color: black;
+    background: #7991e1;
+    text-decoration: none;
+ }
+
+ul a {
+    display: block;
+    padding:  0 2em;
+    line-height: 2em;
+    text-decoration: none;
+    background: url(../divisor.png ) repeat-y left top;  
+}
+
+h1 a {
+    font-size: 2.5em;
+    text-decoration: none;   
+}
+
+h2 {
+  color: #6F38C5;
+  padding-top: 20px; 
+  padding-left: 20px;
+}
+
+h3 {
+   color:#ffffff;
+   background: #6F38C5;
+   border-radius: 5px;
+   padding: 5px;
+   margin-left: 5px;
+}
+
+.encotrados {
+    font-size: 0.8em;
+    padding-left: 20px;
+    border-bottom: 3px dashed #87A2FB ;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.amarelo {
+    color: #ffffff   ;
+}
+
+.branco {
+    color:   #ADDDD0 ;
+}
+
+.nft {
+    display: inline;
+    position: relative ; right: 24px; top: 17px; 
+}
+
+.primeiro {
+    background: none;
+ }
+
+p { 
+    clear: both;
+    padding: 10px 10px 5px 10px;
+    display: block;
+    font-size: 0.9em;
+    border-top: 4px dashed #87A2FB ;
+}
+
+ .sabia {
+    border: none;
+   
+}
+
+.curiosidades{
+    border: none;
+    clear: both;
+    padding: 10px 10px 5px 10px;
+    display: block;
+    font-size: 0.8em;
+}
+
+.informa{
+    border-top: 4px dashed #87A2FB ;
+    border-bottom: 4px dashed #87A2FB ;
+}
+
+
+.final{
+    border-bottom: 1px solid #3CB371 ;
+   
+}
+
+.tex {
+    padding:5px 5px 0px 5px;
+    text-align: center;
+   outline: unset;
+   position: relative; left: 32px; top: 10px; bottom: 10px; 
+   border-radius: 5px;
+   border: 1px solid #3CB371 ;
+}
+
+.tex:focus{
+    background: #dcdcdc;
+}
+
+.enviar {
+    width: 100px;
+    border: 1px solid #3CB371 ;
+    outline: unset;
+    border-radius: 5px;
+    position: relative; left: 70px; top: 5px;
+    background-color: #3CB371;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+label {
+    font-size: 0.9em;
+    padding: 5px 10px 0px 10px;
+   display:block;
+}
+
+.fofinhos{
+    position: relative; left: 65px;
+
+}
+
+
+.clear {
+    clear: both;
+}
+
+/*Postagem1*/
+.postagens {
+    padding: 20px;
+    margin-bottom: 20px; 
+    
+  }
+
+.postagem1 {
+    float: left;
+    width: 300px;
+}
+
+.postagem2 {
+    float: right;
+    width: 300px;
+}
+
+.postagem3 {
+    padding-top: 10px;
+    clear: both;
+    float: left;
+    width: 300px;
+    position: relative; top: 20px;
+}
+.postagem4 {
+    padding-top: 10px;
+    float: right;
+    width: 300px;
+    position: relative; bottom: 25px;
+}
+
+.postagem5 {
+    padding-top: 10px;
+    float: right;
+    width: 300px;
+    position: relative; bottom: 20px;
+}
+
+.postagem1, .postagem2, .postagem3, .postagem4, .postagem5{
+    position: relative;
+    width: 300px;
+    
+    
+}
+  
+  .imagem1, .imagem2, .imagem3, .imagem4, .imagem5 {
+    opacity: 1;
+    display: block;
+    width: 300px;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    box-shadow: 9px 7px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .middle1, .middle2, .middle3, .middle4, .middle5 {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+  }
+  
+  .postagem1:hover .imagem1,.postagem2:hover .imagem2,.postagem3:hover .imagem3,.postagem4:hover .imagem4, .postagem5:hover .imagem5 {
+    opacity: 0.5;
+  }
+  
+  .postagem1:hover .middle1, .postagem2:hover .middle2, .postagem3:hover .middle3, .postagem4:hover .middle4, .postagem5:hover .middle5 {
+    opacity: 1;
+  }
+  
+  .texto1, .texto2, .texto3, .texto4, .texto5 {
+    border-radius: 10px;
+    background-color: #6F38C5;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+  /* Fim da postagem1*/
+
+/*rodape*/
+
