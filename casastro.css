@@ -96,7 +96,7 @@ ul {
     padding: 0;
     width: 100%;
     list-style: none;
-    background: url(../NOVO-PET-SHOP/Design\ sem\ nome.png) repeat-x;
+    background: url(./Design\ sem\ nome.png) repeat-x;
     float: left;
     text-decoration: none;  
 }
@@ -117,7 +117,7 @@ ul a {
     padding:  0 2em;
     line-height: 2em;
     text-decoration: none;
-    background: url(../NOVO-PET-SHOP/divisor.png ) repeat-y left top;  
+    background: url(./divisor.png ) repeat-y left top;  
 }
 
 
